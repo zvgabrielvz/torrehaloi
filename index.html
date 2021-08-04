@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Torre de Hanoi</title>
+</head>
+<body>
+    <header>
+        <h1>JOGO TORRE DE HANOI</h1>
+    </header>
+    <div class="container container-torre">
+        <!-- torre -->
+        <div id="tower1" class="section-torre ">
+            <div id="0" class="torre-blocos start "></div>     
+            <h2 class="title">Start</h2>
+        </div>
+                        
+            <!-- torre -->
+        <div id="tower2" class="section-torre ">
+            <div id="1" class="torre-blocos offset"></div>  
+            <h2 class="title">offset</h2>
+        </div>
+
+        <div id="tower3" class="section-torre ">
+            <div id="2"  class="torre-blocos end"></div>
+            <h2 class="title">end</h2>
+        </div>
+    </div>
+    <div class="container container-button">
+        <button id="breset">Reset Game</button>
+    </div>
+    <div id="victory" class="container container-victory">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
